@@ -3,21 +3,36 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>NYT Article Search</title>
+    <title>Trivia Game</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <script src="app.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/main.js"></script>
 </head>
 <body>
+    
+<div class="jumbotron">
+    <div class="row">
+        <h1>New York Times Search</h1>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <p>Search Term: </p>
+    </div>  
+    <div class="row">
+        <p>Number of Records to Retrieve</p>
+
+    </div>
     <header class="wrapper">
         <h1>New York Times Search</h1>
     </header>
     <button class="btn" id="submit">Search</button>
     <button class="btn" id="clear">Clear Results</button>
-    
-
-
+</div>
 
 </body>
 </html>
