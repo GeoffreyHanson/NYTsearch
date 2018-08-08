@@ -1,0 +1,17 @@
+.jumbotron {
+    text-align: center;
+    align-content: center;
+}
+
+.form-control {
+    width: 80% !important;
+    margin: 10px auto;
+    align-content: center;
+    
+}
+
+exampleFormControlInput1 {
+    width: 80% !important;
+    margin: 10px auto;
+    align-content: center;
+}
