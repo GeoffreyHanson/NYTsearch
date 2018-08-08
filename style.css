@@ -1,0 +1,18 @@
+html, body {
+display: inline-block;
+position: relative;
+};
+
+
+.wrapper {
+    font-size: 60pt;
+    color: beige;
+    background-color: blue;
+    position: relative;
+    width: 70%;
+    height: 140px;
+}
+
+.btn {
+    
+}
